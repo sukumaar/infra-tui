@@ -1,0 +1,12 @@
+[package]
+name = "infra-tui"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Terminal UI for exploring infrastructure as code"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow = "1.0.104"
+crossterm = "0.29.0"
+ratatui = "0.29.0"
